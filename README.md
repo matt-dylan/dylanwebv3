@@ -1,83 +1,110 @@
-# ₿ Sats Calculator
+# Dylan Whitlock | Portfolio
 
-A sleek, mobile-first Bitcoin calculator for converting between **USD**, **BTC**, and **Sats** in real-time. Built with React + Vite + Tailwind CSS v4.
+A modern, responsive portfolio website showcasing my experience as a Senior Software Engineer & AI Specialist.
 
-![Sats Calculator Screenshot](./public/screenshot.png)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+![React](https://img.shields.io/badge/React-20232A?style=flat&logo=react&logoColor=61DAFB)
+![Vite](https://img.shields.io/badge/Vite-646CFF?style=flat&logo=vite&logoColor=FFD62E)
+![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=flat&logo=tailwind-css&logoColor=white)
 
-## Features
+## 🚀 Live Demo
 
-- 💱 **Bidirectional conversion** — Switch freely between USD, BTC, and Sats
-- ⚡ **Real-time price updates** — Fetches live Bitcoin price from CoinGecko API (refreshes every 60 seconds)
-- 🌍 **Multi-currency support** — USD, EUR, GBP with accurate local rates
-- 🔢 **Quick amount buttons** — One-click presets ($100 to $50,000), visible on load
-- 📊 **Portfolio tracker** — Save your BTC holdings and track fiat value in real-time
-- 🔔 **Price alerts** — Set notifications when Bitcoin goes above or below a threshold
-- 📤 **Share conversion cards** — Export conversions as shareable text (native share + clipboard)
-- 📱 **Mobile responsive** — Optimized for phones and tablets
-- 🌙 **Dark theme** — Sleek dark UI with Bitcoin orange accents
-- 🔒 **Smart input validation** — Sats accept integers only, USD allows 2 decimals, BTC supports up to 8 decimal places
+Visit the live site: [dylanwebv3.netlify.app](https://dylanwebv3.netlify.app)
 
-## Live Price
+## 📸 Preview
 
-The app pulls the current Bitcoin price from [CoinGecko's public API](https://www.coingecko.com/en/api) with no API key required. Prices auto-refresh every minute for accuracy and are displayed in your selected currency.
+![Portfolio Screenshot](public/screenshot.png)
 
-### Quick math reference
-1 BTC = 100,000,000 sats (1 sat = 0.00000001 BTC)
+## ✨ Features
 
-## Getting Started
+- **Modern Dark Theme** - Sleek, professional design with blue accent gradients
+- **Responsive Layout** - Optimized for all screen sizes
+- **Smooth Animations** - Scroll-triggered reveals and hover effects
+- **AI Experience Section** - Showcasing Prompt Engineering, Claude, GPT, and local models
+- **Netlify Contact Form** - Form submissions handled by Netlify Forms
+- **SEO Optimized** - Meta tags and semantic HTML
+
+## 🛠️ Tech Stack
+
+- **Framework:** React 19
+- **Build Tool:** Vite
+- **Styling:** Tailwind CSS v4
+- **Animations:** Framer Motion
+- **Icons:** Lucide React
+- **Deployment:** Netlify
+
+## 📋 Sections
+
+- **Hero** - Introduction with name, title, and call-to-action
+- **About** - Bio with key statistics (8+ years experience, 4 certs, 10+ projects)
+- **Experience** - Work history (Litify, GM Financial, Fenway Group)
+- **Skills** - Technical skills with proficiency levels
+  - AI & Machine Learning (Prompt Engineering, Claude, GPT, Local Models)
+  - Salesforce Platform
+  - Web Technologies
+  - Development Tools
+  - Cloud & Platforms
+  - Methodologies
+- **Education & Certifications** - Degree and professional certifications
+- **Projects** - Featured repositories and projects
+- **Contact** - Contact form and social links
+
+## 🏗️ Getting Started
 
 ### Prerequisites
 
-- Node.js 18+ 
+- Node.js 18+
 - npm or yarn
 
 ### Installation
 
 ```bash
-cd sats-calculator
+# Clone the repository
+git clone https://github.com/matt-dylan/dylanwebv3.git
+
+# Navigate to project directory
+cd dylanwebv3
+
+# Install dependencies
 npm install
-```
 
-### Development
-
-```bash
+# Start development server
 npm run dev
 ```
 
-The app will be available at `http://localhost:5173` (or whatever port Vite assigns).
-
-### Production Build
+### Build for Production
 
 ```bash
 npm run build
 ```
 
-This creates an optimized production bundle in the `dist/` directory.
+### Preview Production Build
 
-## Tech Stack
-
-- **React** — UI framework
-- **Vite** — Build tool and dev server
-- **Tailwind CSS v4** — Utility-first CSS framework with zero-JS approach
-- **CoinGecko API** — Free, no-API-key Bitcoin price data
-
-## Project Structure
-
-```
-sats-calculator/
-├── dist/                  # Production build output
-├── public/                # Static assets
-│   └── screenshot.png     # App preview screenshot
-├── src/
-│   ├── App.jsx            # Main application component
-│   ├── index.css          # Tailwind CSS entry point
-│   └── main.jsx           # React entry point
-├── index.html             # HTML entry point
-├── vite.config.js         # Vite configuration
-├── package.json
-└── README.md
+```bash
+npm run preview
 ```
 
-## License
+## 📄 License
 
-MIT © [matt-dylan](https://github.com/matt-dylan)
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+
+## 👤 About
+
+**Dylan Whitlock**
+- Senior Software Engineer & AI Specialist
+- Based in Carthage, TX
+- Salesforce Architect with 8+ years of experience
+- Passionate about AI integration and enterprise solutions
+
+### Connect
+
+- [GitHub](https://github.com/matt-dylan)
+- [LinkedIn](https://www.linkedin.com/in/dylan-whitlock-49973a114)
+- [Trailblazer Profile](https://trailblazer.me/id/dwhitlock)
+- [Email](mailto:matthew.whitlock8@gmail.com)
+
+## 🙏 Acknowledgments
+
+- Built with React, Vite, and Tailwind CSS
+- Icons from Lucide React
+- Fonts: Inter and JetBrains Mono
