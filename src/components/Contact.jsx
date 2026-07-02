@@ -152,7 +152,7 @@ export default function Contact() {
             </form>
 
             <div className="mt-8 pt-8 border-t border-[#1f2937] space-y-4">
-              <div className="flex items-center gap-4 justify-center">
+              <div className="flex flex-col sm:flex-row items-center gap-3 sm:gap-4 justify-center">
                 <a
                   href={`mailto:${contact.email}`}
                   className="flex items-center gap-2 text-[#9ca3af] hover:text-white transition-colors"
@@ -160,12 +160,12 @@ export default function Contact() {
                   <Mail size={18} />
                   <span className="text-sm">{contact.email}</span>
                 </a>
-                <span className="text-[#374151]">•</span>
+                <span className="hidden sm:inline text-[#374151]">•</span>
                 <a href={`tel:${contact.phone.replace(/\D/g, '')}`} className="flex items-center gap-2 text-[#9ca3af] hover:text-white transition-colors">
                   <Phone size={18} />
                   <span className="text-sm">{contact.phone}</span>
                 </a>
-                <span className="text-[#374151]">•</span>
+                <span className="hidden sm:inline text-[#374151]">•</span>
                 <span className="flex items-center gap-2 text-[#9ca3af]">
                   <MapPin size={18} />
                   <span className="text-sm">{contact.location}</span>
