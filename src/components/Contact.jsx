@@ -13,14 +13,11 @@ export default function Contact() {
     setStatus('submitting')
 
     try {
-      const response = await fetch('/_netlify/forms/contact', {
+      const formData = new FormData(e.target)
+      const response = await fetch('/', {
         method: 'POST',
         headers: { 'Content-Type': 'application/x-www-form-urlencoded' },
-        body: new URLSearchParams({
-          name: formData.name,
-          email: formData.email,
-          message: formData.message,
-        }).toString(),
+        body: new URLSearchParams(formData).toString(),
       })
 
       if (response.ok) {
@@ -52,6 +49,7 @@ export default function Contact() {
             <form
               name="contact"
               data-netlify="true"
+              method="POST"
               netlify-honeypot="bot-field"
               className="space-y-6"
               onSubmit={handleSubmit}
